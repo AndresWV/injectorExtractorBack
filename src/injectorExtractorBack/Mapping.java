@@ -13,7 +13,7 @@ public interface Mapping {
 		return "";
 	}
 	private Process typeProcessXmi(String splitLine){
-		return new Process();
+		return new Process(0,"");
 	}
 	private void processExtractor(String fileLine, int processCount){}
 	private ArrayList listFilesForFolder(final File folder, ArrayList inputFiles){
