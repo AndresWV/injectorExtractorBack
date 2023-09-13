@@ -1,5 +1,5 @@
 package injectorExtractorBack;
 
-public interface Process {
+public class Process {
 
 }
